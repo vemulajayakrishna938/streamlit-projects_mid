@@ -1,0 +1,20 @@
+STREAMLIT EXAM - FOLLOW THESE STEPS
+
+1. Install Python 3 if it is not already installed.
+2. Open this Streamlit folder in VS Code.
+3. Put the faculty-provided IMDb Top 250 CSV in this same folder.
+4. Rename that CSV to: imdb_top_250.csv
+   (Alternatively, run the app and upload the CSV in the left sidebar.)
+5. Open Terminal in VS Code.
+6. Run:  py -m pip install -r requirements.txt
+   If that fails, run: python -m pip install -r requirements.txt
+7. Run:  py -m streamlit run app.py
+   If that fails, run: python -m streamlit run app.py
+8. The browser opens at http://localhost:8501
+9. Take screenshots of the dashboard, charts, explorer and search form.
+10. Submit app.py and screenshots as requested.
+
+IMPORTANT:
+- The exam paper asks for the IMDb Top 250 dataset. The uploaded ZIP files did not contain this dataset.
+- The app accepts CSV upload in the sidebar and recognizes common IMDb column-name variants.
+- Check that the CSV has title, genres, averageRating, numVotes, grossWorldwide. Country data is optional.
